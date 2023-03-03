@@ -1,0 +1,55 @@
+/* CSS HEX 
+--polynesian-blue: #054a91ff;
+--steel-blue: #3e7cb1ff;
+--vista-blue: #81a4cdff;
+--alice-blue: #dbe4eeff;
+--safety-orange: #f17300ff  */
+body {
+    font-family: Monospace, Sans-Serif;
+    font-size: 16px;
+    background-color: #054a91ff;
+    color: white;
+  }
+  h1, p#description{
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  form {
+    width: 80%;
+    max-width: 400px;
+    background-color: #3e7cb1ff;
+    margin: 0 auto;
+    min-width: 20%;
+    font-size: 1.125rem;
+    border-radius: 7px;
+  }
+  .main-bio label {
+    display: block;
+  }
+  input, select, textarea {
+    background-color: #81a4cdff;
+    border-radius: 5px;
+  }
+  textarea, .main-bio input{
+    width:100%;
+    border: none;
+  }
+  fieldset {
+    padding: 1rem;
+    border: none;
+  }
+  #submit {
+    display: block;
+    width: 60%;
+    margin: 5% auto;
+    border: none;
+    color: #dbe4eeff;
+    font-size: 1.3rem;
+    background-color: turquoise;
+  }
+  p {
+    margin-top: -3px;
+  }
