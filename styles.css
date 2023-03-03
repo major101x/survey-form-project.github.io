@@ -25,21 +25,57 @@ body {
     min-width: 20%;
     font-size: 1.125rem;
     border-radius: 7px;
-  }
-  .main-bio label {
-    display: block;
-  }
-  input, select, textarea {
-    background-color: #81a4cdff;
-    border-radius: 5px;
-  }
-  textarea, .main-bio input{
-    width:100%;
-    border: none;
+    overflow: hidden;
   }
   fieldset {
     padding: 1rem;
     border: none;
+  }
+  input, select, textarea {
+    background-color: #81a4cdff;
+    border-radius: 5px;
+    /* width: 100%; */
+  }  
+  /* label {
+    display: block;
+  } */
+  textarea, .main-bio input{
+    width:100%;
+    border: none;
+  }
+  .main-bio input {
+    height: 1.8rem;
+    margin-bottom: 10px;
+    /* margin-left: 0;
+    margin-right: 0; */
+  }  
+  .feature {
+    display: block;
+  }
+  /* input[type="radio"] {
+    display: block;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0 0.5em 0;
+    vertical-align: middle;
+  }
+  .opinion label {
+    display: block;
+    width: 100%
+  } */
+  p {
+    margin-top: -5px;
+    font-size: 16px;
+  }  
+  select {
+    height: 1.8rem;
+  }
+  #suggest {
+    display: block;
+    /* width: 100%; */
+    margin-top: -10px;
+    margin-bottom: 5px;
   }
   #submit {
     display: block;
@@ -49,7 +85,4 @@ body {
     color: #dbe4eeff;
     font-size: 1.3rem;
     background-color: turquoise;
-  }
-  p {
-    margin-top: -3px;
-  }
+  }  

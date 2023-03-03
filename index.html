@@ -23,13 +23,14 @@
       </fieldset>
       <fieldset class="opinion">
         <p>Would you recommend FreeCodeCamp to a friend?</p>
-        <input type="Radio" value="definetly" name="recommend" id="definetly"><label for="definetly"> Definetly</label>
+        <input type="Radio" class="inline" value="definetly" name="recommend" id="definetly"><label for="definetly"> Definetly</label>
         <br>
-        <input type="Radio" value="maybe" name="recommend" id="maybe"><label for="maybe"> Maybe</label>
+        <input type="Radio" class="inline" value="maybe" name="recommend" id="maybe"><label for="maybe"> Maybe</label>
         <br>
-        <input type="Radio" value="not-sure" name="recommend" id="not-sure"><label for="not-sure"> Not Sure</label>
-        </fieldset>
-        <fieldset class="feature">
+        <input type="Radio" class="inline" value="not-sure" name="recommend" id="not-sure"><label for="not-sure"> Not Sure</label>
+      </fieldset>
+      <fieldset class="feature">
+        <p>What do you want to learn about?</p>
         <input type="checkbox" value="backend" id="backend"><label for="backend"> Backend</label>
         <br>
         <input type="checkbox" value="frontend" id="frontend"><label for="frontend"> Frontend</label>
@@ -37,8 +38,7 @@
         <input type="checkbox" value="challenge" id="challenge"><label for="challenge"> Challenge</label>
         </fieldset>
         <fieldset class="suggestions">
-        <label for="textarea"> Any suggestions?</label>
-        <br>
+        <label id="suggest" for="textarea"> Any suggestions?</label>
         <textarea id="textarea" rows="3"></textarea>
       </fieldset>
         <input type="submit" id="submit">
