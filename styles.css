@@ -4,6 +4,9 @@
 --vista-blue: #81a4cdff;
 --alice-blue: #dbe4eeff;
 --safety-orange: #f17300ff  */
+* {
+  box-sizing: border-box;
+}
 body {
     font-family: Monospace, Sans-Serif;
     font-size: 16px;
